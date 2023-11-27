@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DRqen68Y)
 # Lab04
 
 # SuperType : Humanoid
@@ -129,5 +128,6 @@ GiveEffect จะมอบ Effect อะไรให้ผู้ใส่
 | GiveEffect | จะเพิ่ม Dexterity กับ Stamina |
 | --- | --- |
 
-![LOCAL IMAGE](src/Lab04/F1.png)
-![LOCAL IMAGE](src/Lab04/F2.png)
+![Screenshot 2566-11-27 at 18.25.47.png](Lab04/F1.png)
+
+![Screenshot 2566-11-27 at 18.23.32.png](Lab04/F2.png)
