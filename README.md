@@ -19,7 +19,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class Character 1: [Human] implement Humanoid
+## Class  [Human] implement Humanoid
 
 ## Operation
 
@@ -33,7 +33,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class  Character 2: [Giant] implement Humanoid
+## Class  [Giant] implement Humanoid
 
 ## Operation
 
@@ -46,8 +46,8 @@ getMana = แสดงมานาที่มีอยู่
 | getMana | ส่งค่าเลือดของตัวละคร |
 
 ---
-
-## Class SwordMan implement Human
+# Character 1: 
+## Class    SwordMan implement Human
 
 | Attribute | Description |
 | --- | --- |
@@ -72,6 +72,7 @@ getMana = แสดงมานาที่มีอยู่
 | getMana | ส่งค่าเลือดของตัวละคร |
 
 ---
+# Character 2:
 
 ## Class Berserk implement Giant
 
