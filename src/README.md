@@ -18,7 +18,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Interface Character 1: [Human] implement Humanoid
+## Interface Character 1: [Human] extend Humanoid
 
 ## Operation
 
@@ -32,7 +32,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Interface  Character 2: [Giant] implement Humanoid
+## Interface  Character 2: [Giant] extend Humanoid
 
 ## Operation
 
@@ -46,7 +46,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class SwordMan extend Humen
+## Class SwordMan implement Human
 
 | Attribute | Description |
 | --- | --- |
@@ -72,7 +72,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class Berserk extand Giant
+## Class Berserk implement Giant
 
 | Attribute | Description |
 | --- | --- |
