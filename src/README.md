@@ -18,7 +18,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Interface Character 1: [Human] extend Humanoid
+## Class Character 1: [Human] implement Humanoid
 
 ## Operation
 
@@ -32,7 +32,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Interface  Character 2: [Giant] extend Humanoid
+## Class  Character 2: [Giant] implement Humanoid
 
 ## Operation
 
