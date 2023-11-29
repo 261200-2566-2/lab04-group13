@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DRqen68Y)
 # Lab04
 
-# SuperType : Humanoid
+# Interface Humanoid
 
 ## Operations
 
@@ -47,7 +47,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 # Character 1: 
-## Class    SwordMan implement Human
+## Class    SwordMan extends Human
 
 | Attribute | Description |
 | --- | --- |
@@ -74,7 +74,7 @@ getMana = แสดงมานาที่มีอยู่
 ---
 # Character 2:
 
-## Class Berserk implement Giant
+## Class Berserk extend Giant
 
 | Attribute | Description |
 | --- | --- |
@@ -100,7 +100,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-# SuperType of Accessory
+# Interface Accessory
 
 GiveEffect จะมอบ Effect อะไรให้ผู้ใส่
 
