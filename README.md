@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DRqen68Y)
 # Lab04
 
-# Interface Humanoid
+# SuperType : Humanoid
 
 ## Operations
 
@@ -19,7 +19,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class  [Human] implement Humanoid
+## Class Character 1: [Human] implement Humanoid
 
 ## Operation
 
@@ -33,7 +33,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class  [Giant] implement Humanoid
+## Class  Character 2: [Giant] implement Humanoid
 
 ## Operation
 
@@ -46,17 +46,20 @@ getMana = แสดงมานาที่มีอยู่
 | getMana | ส่งค่าเลือดของตัวละคร |
 
 ---
-# Character 1: 
-## Class    SwordMan extends Human
+
+## Class SwordMan extend Human
 
 | Attribute | Description |
 | --- | --- |
 | Name | ชื่อของตัวละคร |
 | Level | เลเวลของตัวละคร |
 | HP | เลือดของตัวละคร |
+| MaxHP | เลือดตัวละครที่มากที่สุด |
 | MP | มานาของตัวละคร |
+| MaxMP | มานาที่มากที่สุด |
 | Strength | ตวามแข็งเเรงของตัวละคร |
-| Dexterity | ความว่องไวของตัวละคร |
+| speed | ความว่องไวของตัวละคร |
+| MaxSpeed | ความเร็วมากที่สุด |
 | Intelligence | ความฉลาดของตัวละคร |
 | Stamina | ความอึดของตัวละคร |
 | Equipped Accessories | อุปกรณ์ที่ใส่ |
@@ -70,9 +73,10 @@ getMana = แสดงมานาที่มีอยู่
 | CalDmg | คำนวณดาเมท ที่โดน โดยเอาเกราะมาหักกับดาเมทด้วย |
 | getHp | ส่งค่าเลือดของตัวละคร |
 | getMana | ส่งค่าเลือดของตัวละคร |
+| EquipAccessories | ใส่อุปกรณ์ |
+| UnEquipAccessories | ถอดอุปกรณ์ |
 
 ---
-# Character 2:
 
 ## Class Berserk extend Giant
 
@@ -97,10 +101,12 @@ getMana = แสดงมานาที่มีอยู่
 | CalDmg | คำนวณดาเมจที่โดน  |
 | getHp | ส่งค่าเลือดของตัวละคร |
 | getMana | ส่งค่าเลือดของตัวละคร |
+| EquipAccessories | ใส่อุปกรณ์ |
+| UnEquipAccessories | ถอดอุปกรณ์ |
 
 ---
 
-# Interface Accessory
+# SuperType of Accessory
 
 GiveEffect จะมอบ Effect อะไรให้ผู้ใส่
 

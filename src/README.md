@@ -1,3 +1,4 @@
+
 # Lab04
 
 # SuperType : Humanoid
@@ -46,16 +47,19 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class SwordMan implement Human
+## Class SwordMan extend Human
 
 | Attribute | Description |
 | --- | --- |
 | Name | ชื่อของตัวละคร |
 | Level | เลเวลของตัวละคร |
 | HP | เลือดของตัวละคร |
+| MaxHP | เลือดตัวละครที่มากที่สุด |
 | MP | มานาของตัวละคร |
+| MaxMP | มานาที่มากที่สุด |
 | Strength | ตวามแข็งเเรงของตัวละคร |
-| Dexterity | ความว่องไวของตัวละคร |
+| speed | ความว่องไวของตัวละคร |
+| MaxSpeed | ความเร็วมากที่สุด |
 | Intelligence | ความฉลาดของตัวละคร |
 | Stamina | ความอึดของตัวละคร |
 | Equipped Accessories | อุปกรณ์ที่ใส่ |
@@ -69,10 +73,12 @@ getMana = แสดงมานาที่มีอยู่
 | CalDmg | คำนวณดาเมท ที่โดน โดยเอาเกราะมาหักกับดาเมทด้วย |
 | getHp | ส่งค่าเลือดของตัวละคร |
 | getMana | ส่งค่าเลือดของตัวละคร |
+| EquipAccessories | ใส่อุปกรณ์ |
+| UnEquipAccessories | ถอดอุปกรณ์ |
 
 ---
 
-## Class Berserk implement Giant
+## Class Berserk extend Giant
 
 | Attribute | Description |
 | --- | --- |
@@ -95,6 +101,8 @@ getMana = แสดงมานาที่มีอยู่
 | CalDmg | คำนวณดาเมจที่โดน  |
 | getHp | ส่งค่าเลือดของตัวละคร |
 | getMana | ส่งค่าเลือดของตัวละคร |
+| EquipAccessories | ใส่อุปกรณ์ |
+| UnEquipAccessories | ถอดอุปกรณ์ |
 
 ---
 
@@ -127,6 +135,7 @@ GiveEffect จะมอบ Effect อะไรให้ผู้ใส่
 
 | GiveEffect | จะเพิ่ม Dexterity กับ Stamina |
 | --- | --- |
+
 
 ![Screenshot 2566-11-27 at 18.25.47.png](Lab04/F1.png)
 
