@@ -1,7 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DRqen68Y)
+
+
 # Lab04
 
-# SuperType : Humanoid
+# Interface : Humanoid
 
 ## Operations
 
@@ -19,7 +21,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class Character 1: [Human] implement Humanoid
+## Interface Character 1: [Human] extend Humanoid
 
 ## Operation
 
@@ -33,7 +35,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class  Character 2: [Giant] implement Humanoid
+## Interface Character 2: [Giant] extend Humanoid
 
 ## Operation
 
@@ -47,7 +49,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class SwordMan extend Human
+## Class SwordMan Implement Human
 
 | Attribute | Description |
 | --- | --- |
@@ -78,7 +80,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class Berserk extend Giant
+## Class Berserk Implement Giant
 
 | Attribute | Description |
 | --- | --- |

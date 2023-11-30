@@ -1,7 +1,7 @@
 
 # Lab04
 
-# SuperType : Humanoid
+# Interface : Humanoid
 
 ## Operations
 
@@ -19,7 +19,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class Character 1: [Human] implement Humanoid
+## Interface Character 1: [Human] extend Humanoid
 
 ## Operation
 
@@ -33,7 +33,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class  Character 2: [Giant] implement Humanoid
+## Interface Character 2: [Giant] extend Humanoid
 
 ## Operation
 
@@ -47,7 +47,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class SwordMan extend Human
+## Class SwordMan Implement Human
 
 | Attribute | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ getMana = แสดงมานาที่มีอยู่
 
 ---
 
-## Class Berserk extend Giant
+## Class Berserk Implement Giant
 
 | Attribute | Description |
 | --- | --- |
